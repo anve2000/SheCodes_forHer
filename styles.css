@@ -1,0 +1,178 @@
+h1
+{
+  color: black;
+  /* color: #630000; */
+  font-family: 'Work Sans', sans-serif;
+  padding-left: 20px;
+
+}
+
+body{
+  margin: 0;
+  background-color:white;
+  /* padding-left: 20px; */
+}
+
+.tophead{
+  padding-left:18px;
+  color: white;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("img_parallax.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a{
+  color: white;
+    text-decoration: none;
+      /* margin:20px 50px; */
+      padding:auto 30px auto 30px;
+}
+.topborder{
+    margin-left:0;
+  /* width:20%; */
+  height: 0;
+  /* background-color: #63000; */
+
+}
+
+.division{
+  color: white;
+  padding-left: 400px;
+    text-decoration: none;
+}
+
+p{
+  font-family: 'Work Sans', sans-serif;
+  padding-left: 20px;
+}
+/* .top-container{
+  /* width:300px; */
+  /* margin:0;
+     padding-left: 0;
+     padding-right:400px;
+     padding-top: 30px;
+     padding-bottom:500px; */
+
+/* }  */
+.P_Abt_Comm{
+  /* height:auto; */
+  /* width:60%;
+  padding-left: 0;
+  padding-right: 100px;
+  color:white; */
+}
+ .middle-container{
+  border-top: 100px;
+  width:100%;
+  padding-top: 0;
+  /* padding-bottom: 500px; */
+  height:300px;
+  background-color:#630000;
+  font-family: 'Work Sans', sans-serif;
+  font-color:white;
+ }
+.footer-link{
+  color:#5b6d5b;
+}
+.OPPORTUNITIES{
+  background-color: #c8c6a7;
+font-family: 'Work Sans', sans-serif;
+
+}
+
+.table{
+  background-color: #630000;
+  padding-right: 0;
+  width:100%;
+}
+.subtopheading
+{
+  padding-left:20px;
+
+}
+.border{
+  background-color: #92967d;
+  height:30px;
+  width: 100%;
+}
+
+td{
+  padding-left: 10px;
+  padding-right: 20px;
+  word-spacing: 10px;
+}
+
+.left_box{
+  padding-right: 200px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  height:280px;
+  width:227.550;
+
+}
+.girlsImg{
+ border-radius: 1px;
+ /* padding: 5px; */
+    /* padding-left: 20px;
+    padding-right:100px;
+    padding-bottom: 200px; */
+    /* padding-top: 100px; */
+    margin:0;
+    height: 270px;
+    width:300px;
+}
+
+.TopHeading{
+  margin:0;  background-color: #630000;
+  font-weight: normal;
+  line-height:3;
+}
+
+
+.AboutTheCircle{
+  /* background-color: #630000 ; */
+  height:10px;
+  padding: 20px 0 30px 300px;
+}
+.btn {
+  background: #db623d;
+  background-image: -webkit-linear-gradient(top, #db623d, #961209);
+  background-image: -moz-linear-gradient(top, #db623d, #961209);
+  background-image: -ms-linear-gradient(top, #db623d, #961209);
+  background-image: -o-linear-gradient(top, #db623d, #961209);
+  background-image: linear-gradient(to bottom, #db623d, #961209);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Georgia;
+  color: #e8dcdc;
+  font-size: 20px;
+  padding:6px 6px 8px 11px;
+  text-decoration: none;
+}
+
+.button{
+  padding-left:10px;
+  margin: 0;
+  padding-top: 2-px;
+}
+.btn:hover {
+  background: #de9797;
+  background-image: -webkit-linear-gradient(top, #de9797, #cf200c);
+  background-image: -moz-linear-gradient(top, #de9797, #cf200c);
+  background-image: -ms-linear-gradient(top, #de9797, #cf200c);
+  background-image: -o-linear-gradient(top, #de9797, #cf200c);
+  background-image: linear-gradient(to bottom, #de9797, #cf200c);
+  text-decoration: none;
+}

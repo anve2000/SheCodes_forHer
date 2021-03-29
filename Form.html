@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="formStyle.css">
+
+</header>
+
+<body>
+  <main class="form">
+    <h1 id="title">Fill this form</h1>
+    <div class="master-div-style">
+      <p id="description">Tell us something positive that happened to you today.</p>
+      <form id="survey-form" action="/do-something">
+        <div class="form-rows">
+          <div class="labels">
+            <label for="name" id="name-label">Name</label>
+          </div>
+          <div class="fields">
+            <input type="text" id="name" class="input-fields" placeholder="Enter your name" required>
+          </div>
+        </div>
+        <div class="form-rows">
+          <div class="labels">
+            <label for="email" id="email-label">Email</label>
+          </div>
+          <div class="fields">
+            <input type="email" id="email" class="input-fields" placeholder="Enter your email address" required>
+          </div>
+        </div>
+        <div class="form-rows">
+          <div class="labels">
+            <label for="number" id="number-label">Branch</label>
+          </div>
+          <div class="fields">
+            <input type="number" id="number" class="input-fields" placeholder="Enter a number between 1 and 10" min="1" max="10">
+          </div>
+        </div>
+        <div class="form-rows">
+          <div class="labels">
+            <label for="dropdown" id="dropdown-label">Year</label>
+          </div>
+          <div class="fields">
+            <select name="Location of positive event" id="dropdown" class="user-selection">
+              <option value="1st">1st</option>
+              <option value="2nd">2nd</option>
+              <option value="3rd">3rd</option>
+              <option value="4th">4th</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+        </div>
+        <div class="form-rows">
+          <div class="labels">
+            <label for="time-of-day">At what time of day did it happen?</label>
+          </div>
+          <div class="fields">
+            <ul id="time-of-day" style="list-style: none;">
+              <li class="radio">
+                <label>
+                  Friends
+                  <input name="time-radio" type="radio" value="1" class="user-selection">
+                </label>
+              </li>
+              <li class="radio">
+                <label>
+                  Instagram
+                  <input name="time-radio" type="radio" value="2" class="user-selection">
+                </label>
+              </li>
+              <li class="radio">
+                <label>
+                  Teacher
+                  <input name="time-radio" type="radio" value="3" class="user-selection">
+                  <input type="text" id="teachername" class="input-fields" placeholder="Enter the teacher's name">
+                </label>
+              </li>
+              <li class="radio">
+                <label>
+                  LinkedIn
+                  <input name="time-radio" type="radio" value="3" class="user-selection">
+                </label>
+              </li>
+              <li class="radio">
+                <label>
+                  Other College Soceity
+                  <input name="time-radio" type="radio" value="3" class="user-selection">
+                  <input type="text" id="teachername" class="input-fields" placeholder="Enter the College Soceity">
+                </label>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="form-rows">
+          <div class="labels">
+            <label for="event-details">
+              If you have a Linkedin, please paste the link to your Linkedin here.
+            </label>
+          </div>
+          <div class="fields">
+            <textarea id="event-details" class="input-fields" style="height: 20px;resize:vertical;font-family: Open Sans Condensed;" name="event-details" cols="100" rows="1" placeholder="Enter your experience here..."></textarea>
+          </div>
+        </div>
+
+        <div class="form-rows">
+          <div class="labels">
+            <label for="event-details">
+              Why is bridging gender gap important to you?Did u experience such bias in our college? Would you like to share with us how?
+
+            </label>
+          </div>
+          <div class="fields">
+            <textarea id="event-details" class="input-fields" style="height: 150px;resize:vertical;font-family: Open Sans Condensed;" name="event-details" cols="20" rows="100" placeholder="Enter your experience here...."></textarea>
+          </div>
+          <div class="form-rows">
+            <div class="labels">
+              <label for="event-details">
+                Being part of a team is all about collaborating with other team members, building on ideas, and proposing ideas of your own. Propose and describe an idea for a future SheCodes_ForHer club.
+              </label>
+            </div>
+            <div class="fields">
+              <textarea id="event-details" class="input-fields" style="height: 250px;resize:vertical;font-family: Open Sans Condensed;" name="event-details" cols="20" rows="100" placeholder="Explain your ideas here..."></textarea>
+            </div>
+          </div>
+
+          <button class="button" id="submit" type="submit">Submit</button>
+      </form>
+    </div>
+  </main>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
